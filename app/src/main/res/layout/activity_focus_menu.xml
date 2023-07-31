@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".focus.FocusMenu">
+
+    <TextView
+        android:id="@+id/not_gestion"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Sin Gestion"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/basic_gestion"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Gestion Basica"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_gestion"
+        app:layout_constraintStart_toStartOf="@+id/not_gestion"
+        app:layout_constraintTop_toBottomOf="@+id/not_gestion"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/manager_focus"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Manejador de foco"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_gestion"
+        app:layout_constraintStart_toStartOf="@+id/not_gestion"
+        app:layout_constraintTop_toBottomOf="@+id/basic_gestion"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/carousels_focus"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Carruseles"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_gestion"
+        app:layout_constraintStart_toStartOf="@+id/not_gestion"
+        app:layout_constraintTop_toBottomOf="@+id/manager_focus"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/tabs_focus"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Foco en Tabs"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_gestion"
+        app:layout_constraintStart_toStartOf="@+id/not_gestion"
+        app:layout_constraintTop_toBottomOf="@+id/carousels_focus"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/menu_focus"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Menu estatico"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_gestion"
+        app:layout_constraintStart_toStartOf="@+id/not_gestion"
+        app:layout_constraintTop_toBottomOf="@+id/tabs_focus"
+        tools:textColor="@color/whiteColor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

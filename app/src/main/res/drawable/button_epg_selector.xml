@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/focused"
+        android:drawable="@drawable/ic_epg_focused"
+        android:state_focused="true" />
+
+    <item
+        android:id="@+id/unfocused"
+        android:drawable="@drawable/ic_epg" />
+
+    <transition
+        android:drawable="@drawable/epg_unfocused_focused"
+        android:fromId="@id/unfocused"
+        android:toId="@id/focused" />
+
+    <transition
+        android:drawable="@drawable/epg_focused_unfocused"
+        android:fromId="@id/focused"
+        android:toId="@id/unfocused" />
+
+</animated-selector>

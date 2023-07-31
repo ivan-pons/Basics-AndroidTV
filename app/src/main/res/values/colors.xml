@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#000000</color>
+    <color name="focus">#52E6C3</color>
+    <color name="redColor">#FF1100</color>
+    <color name="blueColor">#0000FF</color>
+    <color name="greenColor">#416913</color>
+    <color name="violetColor">#673AB7</color>
+    <color name="transparent">#00000000</color>
+    <color name="keyboard_background">#3C3C3B</color>
+    <color name="keyboard_acent_background">#706F6F</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_home_focused">
+    <target
+        android:name="background"
+        android:animation="@anim/focused_ainimation" />
+    <target
+        android:name="icon"
+        android:animation="@anim/focused_icon_ainimation" />
+</animated-vector>

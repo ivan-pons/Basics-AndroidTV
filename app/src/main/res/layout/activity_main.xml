@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/not_selector"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Sin Selector"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/basic_selector"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Selector basico"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_selector"
+        app:layout_constraintStart_toStartOf="@+id/not_selector"
+        app:layout_constraintTop_toBottomOf="@+id/not_selector"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/multiple_selector"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Selector Multiple"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_selector"
+        app:layout_constraintStart_toStartOf="@+id/not_selector"
+        app:layout_constraintTop_toBottomOf="@+id/basic_selector"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/color_selector"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Selector Color"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_selector"
+        app:layout_constraintStart_toStartOf="@+id/not_selector"
+        app:layout_constraintTop_toBottomOf="@+id/multiple_selector"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/animated_selector"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Selector Animado"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_selector"
+        app:layout_constraintStart_toStartOf="@+id/not_selector"
+        app:layout_constraintTop_toBottomOf="@+id/color_selector"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/vector_selector"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Animacion de Vector"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_selector"
+        app:layout_constraintStart_toStartOf="@+id/not_selector"
+        app:layout_constraintTop_toBottomOf="@+id/animated_selector"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/children_selector"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Herencia de estado"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_selector"
+        app:layout_constraintStart_toStartOf="@+id/not_selector"
+        app:layout_constraintTop_toBottomOf="@+id/vector_selector"
+        tools:textColor="@color/whiteColor" />
+
+    <TextView
+        android:id="@+id/focus_activity"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_onboarding_selector"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Foco"
+        android:textColor="@color/selector_white_black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/not_selector"
+        app:layout_constraintStart_toStartOf="@+id/not_selector"
+        app:layout_constraintTop_toBottomOf="@+id/children_selector"
+        tools:textColor="@color/whiteColor" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

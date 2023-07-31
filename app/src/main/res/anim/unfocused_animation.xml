@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/unfocused_animation_duration"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:propertyName="scaleX"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType" />
+
+    <objectAnimator
+        android:duration="@integer/unfocused_animation_duration"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:propertyName="scaleY"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType" />
+
+    <objectAnimator
+        android:duration="@integer/unfocused_animation_duration"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:propertyName="translateX"
+        android:valueFrom="0"
+        android:valueTo="21"
+        android:valueType="floatType" />
+
+    <objectAnimator
+        android:duration="@integer/unfocused_animation_duration"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:propertyName="translateY"
+        android:valueFrom="0"
+        android:valueTo="21"
+        android:valueType="floatType" />
+</set>
